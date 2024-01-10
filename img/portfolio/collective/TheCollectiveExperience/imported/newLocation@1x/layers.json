@@ -1,0 +1,167 @@
+[
+	{
+		"id": 51,
+		"name": "newLocation",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 1440,
+			"height": 2561
+		},
+		"maskFrame": null,
+		"image": null,
+		"imageType": null,
+		"children": [
+			{
+				"id": 49,
+				"name": "newLocationClose",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/newLocationClose.png",
+					"frame": {
+						"x": 1189,
+						"y": 518,
+						"width": 198,
+						"height": 36
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "1040751943"
+			},
+			{
+				"id": 14,
+				"name": "newLocationContinue",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/newLocationContinue.png",
+					"frame": {
+						"x": 270,
+						"y": 2155,
+						"width": 875,
+						"height": 188
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "1022039329"
+			},
+			{
+				"id": 35,
+				"name": "newLocationContent1",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/newLocationContent1.png",
+					"frame": {
+						"x": 203,
+						"y": 845,
+						"width": 1042,
+						"height": 1251
+					}
+				},
+				"imageType": "png",
+				"children": [
+					{
+						"id": 34,
+						"name": "route",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 1440,
+							"height": 2561
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/route.png",
+							"frame": {
+								"x": 309,
+								"y": 863,
+								"width": 661,
+								"height": 552
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "1687761263"
+					},
+					{
+						"id": 20,
+						"name": "reddot",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 1440,
+							"height": 2561
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/reddot.png",
+							"frame": {
+								"x": 136,
+								"y": 535,
+								"width": 1253,
+								"height": 392
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "481358188"
+					}
+				],
+				"modification": "539814143"
+			},
+			{
+				"id": 8,
+				"name": "bg",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/bg.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 1440,
+						"height": 2561
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "1039560461"
+			}
+		],
+		"modification": "1286192719"
+	}
+]

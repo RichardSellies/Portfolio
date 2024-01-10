@@ -1,0 +1,52 @@
+window.__imported__ = window.__imported__ || {};
+window.__imported__["start@1x/layers.json.js"] = [
+	{
+		"id": 31,
+		"name": "plusspace",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 1440,
+			"height": 3376
+		},
+		"maskFrame": null,
+		"image": {
+			"path": "images/plusspace.png",
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"width": 1440,
+				"height": 3376
+			}
+		},
+		"imageType": "png",
+		"children": [
+			{
+				"id": 40,
+				"name": "plusspacebtn",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 3376
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/plusspacebtn.png",
+					"frame": {
+						"x": 58,
+						"y": 518,
+						"width": 1325,
+						"height": 2797
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "1662578901"
+			}
+		],
+		"modification": "1232310917"
+	}
+]

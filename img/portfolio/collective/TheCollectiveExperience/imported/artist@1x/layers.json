@@ -1,0 +1,293 @@
+[
+	{
+		"id": 66,
+		"name": "artist",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 1440,
+			"height": 4493
+		},
+		"maskFrame": null,
+		"image": null,
+		"imageType": null,
+		"children": [
+			{
+				"id": 54,
+				"name": "details",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 4493
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/details.png",
+					"frame": {
+						"x": 53,
+						"y": 2335,
+						"width": 1326,
+						"height": 688
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "1960495657"
+			},
+			{
+				"id": 41,
+				"name": "video",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 4493
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/video.png",
+					"frame": {
+						"x": 54,
+						"y": 3101,
+						"width": 1325,
+						"height": 732
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "1117900484"
+			},
+			{
+				"id": 34,
+				"name": "caption",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 4493
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/caption.png",
+					"frame": {
+						"x": 716,
+						"y": 1044,
+						"width": 663,
+						"height": 155
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "2127571264"
+			},
+			{
+				"id": 84,
+				"name": "searchMore",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 4493
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/searchMore.png",
+					"frame": {
+						"x": 53,
+						"y": 3886,
+						"width": 1328,
+						"height": 154
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "759947523"
+			},
+			{
+				"id": 104,
+				"name": "saveCollection",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 4493
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/saveCollection.png",
+					"frame": {
+						"x": 53,
+						"y": 4271,
+						"width": 1328,
+						"height": 154
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "128407305"
+			},
+			{
+				"id": 100,
+				"name": "backToMain",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 4493
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/backToMain.png",
+					"frame": {
+						"x": 53,
+						"y": 4271,
+						"width": 1328,
+						"height": 154
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "1840301885"
+			},
+			{
+				"id": 29,
+				"name": "viewmore",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 4493
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/viewmore.png",
+					"frame": {
+						"x": 53,
+						"y": 4078,
+						"width": 1328,
+						"height": 154
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "230722507"
+			},
+			{
+				"id": 21,
+				"name": "bio",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 4493
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/bio.png",
+					"frame": {
+						"x": 53,
+						"y": 1044,
+						"width": 664,
+						"height": 155
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "2117953026"
+			},
+			{
+				"id": 16,
+				"name": "content",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 4493
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/content.png",
+					"frame": {
+						"x": 53,
+						"y": 1044,
+						"width": 1326,
+						"height": 1234
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "1217765122"
+			},
+			{
+				"id": 9,
+				"name": "img",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 4493
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/img.png",
+					"frame": {
+						"x": 54,
+						"y": 536,
+						"width": 1325,
+						"height": 509
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "350797127"
+			},
+			{
+				"id": 71,
+				"name": "bg",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 4493
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/bg.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 1440,
+						"height": 4493
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "1370892206"
+			}
+		],
+		"modification": "454184445"
+	}
+]

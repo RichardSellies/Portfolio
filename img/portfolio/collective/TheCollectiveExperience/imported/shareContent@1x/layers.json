@@ -1,0 +1,166 @@
+[
+	{
+		"id": 51,
+		"name": "shareCollection",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 1440,
+			"height": 2561
+		},
+		"maskFrame": null,
+		"image": null,
+		"imageType": null,
+		"children": [
+			{
+				"id": 103,
+				"name": "copy1",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/copy1.png",
+					"frame": {
+						"x": 217,
+						"y": 886,
+						"width": 1006,
+						"height": 298
+					}
+				},
+				"imageType": "png",
+				"children": [
+					{
+						"id": 99,
+						"name": "saveFacebook",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 1440,
+							"height": 2561
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/saveFacebook.png",
+							"frame": {
+								"x": 56,
+								"y": 1366,
+								"width": 1328,
+								"height": 154
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "32528806"
+					},
+					{
+						"id": 90,
+						"name": "saveEmail",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 1440,
+							"height": 2561
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/saveEmail.png",
+							"frame": {
+								"x": 56,
+								"y": 1558,
+								"width": 1328,
+								"height": 154
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "60948484"
+					}
+				],
+				"modification": "1232971889"
+			},
+			{
+				"id": 8,
+				"name": "bg",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/bg.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 1440,
+						"height": 2561
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "594872329"
+			}
+		],
+		"modification": "1323343156"
+	},
+	{
+		"id": 107,
+		"name": "shareCopy2",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 1440,
+			"height": 2561
+		},
+		"maskFrame": null,
+		"image": {
+			"path": "images/shareCopy2.png",
+			"frame": {
+				"x": 409,
+				"y": 1102,
+				"width": 620,
+				"height": 170
+			}
+		},
+		"imageType": "png",
+		"children": [
+			{
+				"id": 114,
+				"name": "backToHome",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/backToHome.png",
+					"frame": {
+						"x": 56,
+						"y": 1430,
+						"width": 1328,
+						"height": 154
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "583001937"
+			}
+		],
+		"modification": "1315543212"
+	}
+]

@@ -1,0 +1,371 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Div layer for the entire banner. */
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-family: HyundaiRegular;
+	//color: #ffffff;
+	text-rendering: geometricPrecision;
+	-webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+     font-family: HyundaiMedium; 
+	 src: url('HyundaiSansHead-Medium.woff') format('woff'); 
+}
+
+
+@font-face { 
+	font-family: HyundaiRegular; 
+	src: url('HyundaiSansHead-Regular.woff') format('woff'); 
+}
+
+#container_dc {
+	position: absolute;
+	width: 300px;
+	height: 600px;
+	top: 0px;
+	left: 0px;
+	margin: auto;
+	background: #ede9e5;
+	overflow: hidden;
+}
+
+#content_dc {
+	position: absolute;
+	width: 300px;
+	height: 600px;
+	top: 0px;
+	left: 0px;
+	border: 1px solid #ececec;
+	background-color: #ede9e5;
+	z-index: 100;
+	font-family: HyundaiRegular, sans-serif;
+	overflow: hidden;
+}
+
+#discLink_container {
+	    display: inline-block;
+    padding: 0px 0px 0px 18px;
+    line-height: 13px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: #002c5f;
+    font-size: 8px;
+    z-index: 450;
+    text-align: center;
+    font-family: HyundaiMedium !important;
+    cursor: pointer;
+}
+
+#discLink {
+	display: inline-block;
+    padding: 0px 3px;
+    line-height: 15px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: #002c5f;
+    font-size: 15px;
+    z-index: 450;
+    text-align: center;
+    font-family: HyundaiMedium, sans-serif;
+    background-color: rgba(255,255,255,0.5);
+}
+
+#disclaimer {
+	position: absolute;
+	display:block;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: rgb(0, 0, 0);
+	border: 0px solid rgb(153, 153, 153);
+	line-height: 1;
+	padding: 2px 2px 2px 4px;
+	left: 0px;
+	top: 110%;
+	width: 298px;
+	height: 598px;
+	background-color: #FFFFFF;
+	z-index:500;
+	-webkit-transition: all 0.2s;
+	        transition: all 0.2s;
+	overflow: auto;
+	background-color: #ece9e5;
+}
+#disclaimerScroll {
+	    position: absolute;
+    display: block;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    border: 0px solid rgb(153, 153, 153);
+    line-height: 1;
+    padding: 2px 4px 2px 4px;
+    left: 0px;
+    top: 18px;
+    width: 298px;
+    height: 567px;
+    z-index: 500;
+    overflow: auto;
+}
+
+#disclaimerHeading {
+	    display: block;
+    color: #002c5f;
+    margin: 0px 0px 8px 16px;
+    font-size: 12px;
+    font-weight: bold;
+}
+#disclaimerClose {
+	    display: none;
+    padding: 0px;
+    line-height: 15px;
+    position: absolute;
+        top: -14px;
+    left: 4px;
+    color: #002c5f;
+    font-size: 15px;
+    z-index: 450;
+    text-align: center;
+    font-family: HyundaiMedium, sans-serif;
+    cursor: pointer;
+    border-radius: 100px;
+	    position: fixed;
+	opacity: 0;
+}
+
+#disclaimerCopy {
+	    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+    color: #282828;
+    text-transform: none !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    line-height: 1.3 !important;
+    height: auto;
+    bottom: auto;
+    padding: 0px 15px 0px 16px;
+    display: block;
+    font-size: 11px;
+}
+
+#disclaimerScroll::-webkit-scrollbar {
+    width: 14px;
+}
+ 
+#disclaimerScroll::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+	background-color: #fff;
+}
+
+#disclaimerScroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #e5e5e5;
+	border:2px solid #fff;
+}
+
+/* Invisible button for background clickthrough. */
+#background_exit_dc {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+	z-index: 400;
+}
+#cta {
+	    position: absolute;
+    color: #ece9e5;
+    background-color: #002c5f;
+    font-family: HyundaiMedium, sans-serif;
+    font-size: 12.7px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    left: 10px;
+    bottom: 19px;
+    height: 23px;
+    border: 1px solid #002c5f;
+    padding: 3px 14px 2px 14px;
+    cursor: pointer;
+    z-index: 401;
+	opacity: 0;
+	text-align: center;
+
+}
+#cta:hover {
+    background-color: #ece9e5;
+    color: #002c5f;
+}
+#hyundaiLogoSvg {
+	position: absolute;
+    bottom: 17px;
+    right: 10px;
+    width: 111px;
+    height: 15px;
+    -webkit-transform-origin: bottom right;
+    -moz-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    transform-origin: bottom right;
+}
+
+
+#main {
+        position: absolute;
+    overflow: hidden;
+    top: 1px;
+    left: 10px;
+    height: 543px;
+    width: 279px;
+}
+
+#bg {
+        position: absolute;
+    top: -50px;
+    left: -9px;
+    width: 671px;
+}
+
+#exit {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+  /* IE10 needs a background color otherwise he won't capture clicks */
+  background-color: #FFF;
+  opacity: 0;
+  z-index: 400;
+  display: none;
+}
+
+.button {
+  position: absolute;
+  color: #FFF;
+  background-color: #339933;
+  border: 1px outset #333;
+  cursor: pointer;
+  padding: 5px 10px;
+  z-index: 500;
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+	display:block;
+}
+#button {
+	    position: absolute;
+    color: #ece9e5;
+    background-color: #002c5f;
+    font-family: HyundaiMedium, sans-serif;
+    font-size: 12.7px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    left: 10px;
+    bottom: 18px;
+    height: 23px;
+    border: 1px solid #002c5f;
+    padding: 3px 14px 2px 14px;
+    z-index: 401;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+    display: block;
+	cursor: pointer;
+
+}
+#button:hover {
+    background-color: transparent;
+    color: #002c5f;
+}
+
+#a {
+    left: 0px;
+    position: absolute;
+    height: 100%;
+	width: 100%;
+    top: 0px;
+	z-index: 9999;
+	opacity:0;
+	display:none;
+}
+
+#copy010 {
+       position: absolute;
+    top: 104px;
+    left: 22px;
+    font-size: 27px;
+    font-family: HyundaiRegular, sans-serif;
+    line-height: 25px;
+    letter-spacing: 0px;
+    opacity: 0;
+    font-weight: bold;
+}
+#copy020 {
+       position: absolute;
+    top: 110px;
+    left: 22px;
+    font-size: 17px;
+    font-family: HyundaiRegular;
+    line-height: 25px;
+    letter-spacing: 0px;
+    opacity: 0;
+}
+#copy000 {
+        position: absolute;
+    top: 89px;
+    left: 22px;
+    font-size: 27px;
+    font-family: HyundaiMedium;
+    line-height: 25px;
+    letter-spacing: 0px;
+    opacity: 0;
+}
+
+#interior {
+        position: absolute;
+    bottom: -598px;
+    left: -11px;
+    width: 300px;
+}
+#display {
+        position: absolute;
+    bottom: -415px;
+    left: 160px;
+    width: 97px;
+}
+
+#monster {
+        position: absolute;
+    top: 360px;
+    left: -1px;
+    width: 172px;
+    display: block;
+}
+#car_group {
+    position: absolute;
+    top: 0px;
+}

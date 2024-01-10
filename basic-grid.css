@@ -1,0 +1,27 @@
+.basic-grid {
+  color: coral;
+  display: grid;
+  gap: 1.2rem;
+
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.photo-grid {
+  background-color: black;
+  color: coral;
+  display: grid;
+  gap: .8rem;
+  padding: 1.6rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: 240px;
+}
+
+@media screen and (min-width: 515px) {
+  .card-tall {
+    grid-row: span 2 / auto;
+  }
+
+  .card-wide {
+    grid-column: span 2 / auto;
+  }
+}

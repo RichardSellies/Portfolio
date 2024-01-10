@@ -1,0 +1,217 @@
+window.__imported__ = window.__imported__ || {};
+window.__imported__["install@1x/layers.json.js"] = [
+	{
+		"id": 23,
+		"name": "page1",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 1440,
+			"height": 2561
+		},
+		"maskFrame": null,
+		"image": null,
+		"imageType": null,
+		"children": [
+			{
+				"id": 36,
+				"name": "content2",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": null,
+				"imageType": null,
+				"children": [
+					{
+						"id": 35,
+						"name": "btndownload",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 1440,
+							"height": 2561
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/btndownload.png",
+							"frame": {
+								"x": 272,
+								"y": 2002,
+								"width": 875,
+								"height": 187
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "319224771"
+					},
+					{
+						"id": 43,
+						"name": "copy2",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 1440,
+							"height": 2561
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/copy2.png",
+							"frame": {
+								"x": 294,
+								"y": 1634,
+								"width": 830,
+								"height": 272
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "12204503"
+					}
+				],
+				"modification": "563823615"
+			},
+			{
+				"id": 22,
+				"name": "content1",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": null,
+				"imageType": null,
+				"children": [
+					{
+						"id": 21,
+						"name": "btnwifi",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 1440,
+							"height": 2561
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/btnwifi.png",
+							"frame": {
+								"x": 270,
+								"y": 2002,
+								"width": 875,
+								"height": 187
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "842857048"
+					},
+					{
+						"id": 45,
+						"name": "copy1",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 1440,
+							"height": 2561
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/copy1.png",
+							"frame": {
+								"x": 122,
+								"y": 1540,
+								"width": 1199,
+								"height": 347
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "12174739"
+					}
+				],
+				"modification": "2046783203"
+			},
+			{
+				"id": 13,
+				"name": "p1header",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": null,
+				"imageType": null,
+				"children": [
+					{
+						"id": 41,
+						"name": "lockup",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 1440,
+							"height": 2561
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/lockup.png",
+							"frame": {
+								"x": 0,
+								"y": 1009,
+								"width": 1440,
+								"height": 279
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "1122445735"
+					},
+					{
+						"id": 56,
+						"name": "headerimg",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 1440,
+							"height": 2561
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/headerimg.png",
+							"frame": {
+								"x": 0,
+								"y": 0,
+								"width": 1440,
+								"height": 1013
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "995181254"
+					}
+				],
+				"modification": "49338957"
+			}
+		],
+		"modification": "1014091791"
+	}
+]

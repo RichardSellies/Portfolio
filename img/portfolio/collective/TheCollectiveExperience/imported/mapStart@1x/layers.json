@@ -1,0 +1,167 @@
+[
+	{
+		"id": 46,
+		"name": "mapStart",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 1440,
+			"height": 2561
+		},
+		"maskFrame": null,
+		"image": null,
+		"imageType": null,
+		"children": [
+			{
+				"id": 44,
+				"name": "close",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/close.png",
+					"frame": {
+						"x": 1189,
+						"y": 518,
+						"width": 198,
+						"height": 36
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "300193832"
+			},
+			{
+				"id": 14,
+				"name": "continueMapStart",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/continueMapStart.png",
+					"frame": {
+						"x": 270,
+						"y": 2155,
+						"width": 875,
+						"height": 188
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "1484721467"
+			},
+			{
+				"id": 30,
+				"name": "content1MapStart",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/content1MapStart.png",
+					"frame": {
+						"x": 259,
+						"y": 845,
+						"width": 918,
+						"height": 1234
+					}
+				},
+				"imageType": "png",
+				"children": [
+					{
+						"id": 29,
+						"name": "route",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 1440,
+							"height": 2561
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/route.png",
+							"frame": {
+								"x": 556,
+								"y": 898,
+								"width": 220,
+								"height": 775
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "1346719080"
+					},
+					{
+						"id": 20,
+						"name": "reddot",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 1440,
+							"height": 2561
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/reddot.png",
+							"frame": {
+								"x": 186,
+								"y": 1745,
+								"width": 608,
+								"height": 163
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "836718987"
+					}
+				],
+				"modification": "1443231163"
+			},
+			{
+				"id": 8,
+				"name": "overlayMapStart",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 2561
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/overlayMapStart.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 1440,
+						"height": 2561
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "2026181746"
+			}
+		],
+		"modification": "237318512"
+	}
+]
